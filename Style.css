@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Sans-serif;
+    background-image: url(atras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.menu {
+    background-color:#f89bdc;
+    overflow: hidden;
+    position: sticky;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu a {
+    float:left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: #c32e96;
+}
+.header {
+    background: url(cor.jpg);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: large;
+    color: #f89bdc;
+}
+.content {
+    background: rgba(115, 12, 89, 0.381);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 25px;
+    text-align: left;
+}
+.content2 {
+    background: rgba(0, 0, 0, 0.8);
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 25px;
+    text-align: left;
+}

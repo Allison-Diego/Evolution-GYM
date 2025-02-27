@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Sans-serif;
+    background-image: url(de.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.menu {
+    background-color:#33323b;
+    overflow: hidden;
+    position: sticky;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu a {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: #262377ce;
+}
+.header {
+    background: url(fg.jpg);
+    background-position: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.content {
+    background: rgba(154, 154, 162, 0.584);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #141414;
+    border-radius: 25px;
+    text-align: left;
+}
+.content2 {
+    background: rgba(0, 0, 0, 0.8);
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 25px;
+    text-align: left;
+}
+
+a {
+    font-size: 30px;
+}
+
+ p{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
+footer {
+    position: ;
+    bottom: 0;
+    padding: 20px;
+    font-size: 15 px;
+    background-color: #333;
+    color: #ddd;
+    width: 100%;
+    height: 100px;
+}
